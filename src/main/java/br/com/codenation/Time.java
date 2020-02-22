@@ -65,8 +65,9 @@ public class Time {
 	
 
 	public List<Long> getJogadores() {
-		List<Long> retornar = jogadores;
-		return retornar;
+		List<Long> clone = new ArrayList<Long>(jogadores);
+		//List<Long> retornar = jogadores;
+		return clone;
 	}
 	
 	public void addJogador(Long idJogador) {
