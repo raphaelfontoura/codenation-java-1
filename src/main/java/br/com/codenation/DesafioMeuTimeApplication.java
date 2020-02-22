@@ -29,7 +29,7 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 			throw new IdentificadorUtilizadoException();	
 		}
 		
-		listaTime.put(id, new Time(id, nome, dataCriacao, corUniformePrincipal, corUniformeSecundario));		
+		listaTime.put(id, new Time(id, nome, dataCriacao, corUniformePrincipal, corUniformeSecundario));
 	}
 
 	@Desafio("incluirJogador")
@@ -78,7 +78,6 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 		
 		//List<Long> jogadores = new ArrayList<>();
 		List<Long> jogadores = buscarJogadoresDoTime(idTime);
-		
 		Jogador melhorJogador = null;
 		
 		for (Long idJogador : jogadores) {

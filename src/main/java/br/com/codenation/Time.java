@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Time {
 	
-	private static Long id;
+	private Long id;
 	private String nome;
 	private LocalDate dataCriacao;
 	private String corUniformePrincipal;
@@ -16,7 +16,7 @@ public class Time {
 	
 	public Time(Long id, String nome, LocalDate dataCriacao, String corUniformePrincipal,
 			String corUniformeSecundario) {
-		Time.id = id;
+		this.id = id;
 		this.nome = nome;
 		this.dataCriacao = dataCriacao;
 		this.corUniformePrincipal = corUniformePrincipal;

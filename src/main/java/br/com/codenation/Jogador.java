@@ -6,7 +6,7 @@ import java.util.Comparator;
 
 public class Jogador {
 
-	private static Long id;
+	private Long id;
 	private	Long idTime;
 	private String nome;
 	private LocalDate dataNascimento;
@@ -15,7 +15,7 @@ public class Jogador {
 	
 	public Jogador(Long id, Long idTime, String nome, LocalDate dataNascimento, Integer nivelHabilidade,
 			BigDecimal salario) {
-		Jogador.id = id;
+		this.id = id;
 		this.idTime = idTime;
 		this.nome = nome;
 		this.dataNascimento = dataNascimento;
