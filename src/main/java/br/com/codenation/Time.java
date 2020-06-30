@@ -27,10 +27,6 @@ public class Time {
 		return id;
 	}
 
-//	public void setId(Long id) {
-//		Time.id = id;
-//	}
-
 	public String getNome() {
 		return nome;
 	}
@@ -66,7 +62,6 @@ public class Time {
 
 	public List<Long> getJogadores() {
 		List<Long> clone = new ArrayList<Long>(jogadores);
-		//List<Long> retornar = jogadores;
 		return clone;
 	}
 	

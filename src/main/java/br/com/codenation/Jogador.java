@@ -27,10 +27,6 @@ public class Jogador {
 		return id;
 	}
 
-//	public void setId(Long id) {
-//		Jogador.id = id;
-//	}
-
 	public Long getIdTime() {
 		return idTime;
 	}
@@ -70,10 +66,6 @@ public class Jogador {
 	public void setSalario(BigDecimal salario) {
 		this.salario = salario;
 	}
-	
-//	public int compareTo(Jogador j) {
-//		return this.getNivelHabilidade().compareTo(j.getNivelHabilidade());
-//	}
 	
 	@Override
 	public String toString() {
